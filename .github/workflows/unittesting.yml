@@ -1,10 +1,10 @@
-name: Unit_Test
+name: Unit testing
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -13,9 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: install math library
-      run:  sudo apt-get install -y libmath-libm-perl
- 
-
-    - name: make all
+    - name: Install Cunit
+      run: sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
+    - name: make 
       run:  make source
+    - name: allout test
+      run: chmod 777 source/all.out
