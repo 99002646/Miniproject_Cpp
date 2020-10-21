@@ -13,6 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-      
-    - name: makeall
+    - name: install math library
+      run:  sudo apt-get install -y libmath-libm-perl
+ 
+
+    - name: make all
       run:  make MyProject
