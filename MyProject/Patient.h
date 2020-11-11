@@ -11,8 +11,6 @@ using namespace std;
 class Patient : public Appointment
  {
  public:
-	 int shelf;
- 	 public:
  	 	Patient();
  	 	Patient(std::string,int,int,int,int,double,double,int,int,int,int,int);
  	 
