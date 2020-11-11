@@ -1,7 +1,4 @@
- 
- 
 name: C/C++ CI/Cmake
-
 on:
   push:
     branches: [ main ]
