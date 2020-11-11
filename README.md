@@ -6,6 +6,6 @@
 The project aims at developing a C++ application program, that allows the user to take appointment with doctore.
 
 How to run the Project?
-Run the 'make' command and then './all.out' command
+>Run the 'make' command and then './all.out' command
 
 <!--![C/C++ CI/Cmake](https://github.com/99002508/Indata-Sudoku/workflows/C/C++%20CI/Cmake/badge.svg)-->
